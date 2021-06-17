@@ -1,0 +1,134 @@
+body{
+    margin: 0px 25px 0px 25px;
+  }
+/* header */
+  .head{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo{
+   height: 100px;
+   width: 250px;
+   margin-left: 50px;
+   margin-top: 10px;
+  }
+
+  .topnav{
+    height:40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+      }
+    
+  .topnav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    color:gray;
+      }
+
+  .topnav a:hover{
+    font-size:larger;
+    color:#0D83F3;
+      }
+
+  .lien {
+    padding: 0px 15px;
+      }
+
+
+/* main page  */
+.container{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  font-size: xx-large;
+  background-color: #0D83F3; 
+  padding: 2px;
+  color: aliceblue;
+}
+
+.fa-shopping-cart{
+  padding-left: 10px;
+}
+   .grid_center{
+          display: flex;
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+          padding: 20px 10px;
+          margin: 50px 25px;
+          position: relative;
+        }
+  
+
+
+
+
+    .grid_container{
+          display:grid;
+          grid-template-columns:250px 400px;
+          grid-gap: 60px;
+        }
+     
+    .image_produit{
+        height: 155px;
+        width: 175px;
+        padding-left: 70px;
+      }
+
+    .column_2{
+        grid-column-start:2 ;
+      }
+      
+    .name{
+    font-weight: bold;
+    font-size: larger;
+    color: #0D83F3;
+    font-size: 25px;
+  
+  }
+
+   .type{
+    font-weight: bold;
+      }
+    
+
+    .price{
+   display: flex;
+   justify-content: center;
+   font-weight: bolder;
+   font-size: xx-large;
+   margin-bottom: 30px;
+   padding-top: 20px;
+  }
+  /* remove btn */
+   .fa-trash-o{
+      position: absolute;
+      top:30px; 
+      right: 20px;
+      font-size: 40px;
+      color: red;
+      padding-top: 50px;
+      padding-right: 20px;
+    
+  }
+  
+.red{
+      color: red;
+    }
+
+  .icône{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+  }
+  .fa-minus-square , .fa-plus-square{
+    /* color: ; */
+    font-size: 35px;
+    background: #f4f4f4;
+    color: #0D83F3;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
